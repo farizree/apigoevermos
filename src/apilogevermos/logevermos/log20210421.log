@@ -1,0 +1,35 @@
+time="21-04-2021 21:21:45" level=info msg="Server apievermos is ready to handle requests at st :2020"
+time="21-04-2021 21:24:47" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/merchant/insert
+time="21-04-2021 21:26:01" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/merchant/insert
+time="21-04-2021 21:28:18" level=info msg="Server apievermos is ready to handle requests at st :2020"
+time="21-04-2021 21:28:24" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/merchant/insert
+time="21-04-2021 21:29:23" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apipodcast/podcast/datapodcast/list
+time="21-04-2021 21:34:24" level=info msg="Server apievermos is shutting down..."
+time="21-04-2021 21:34:24" level=info msg="Server apievermos stopped"
+time="21-04-2021 21:34:33" level=info msg="Server apievermos is ready to handle requests at st :2021"
+time="21-04-2021 21:35:10" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/merchant/insert
+time="21-04-2021 22:03:51" level=info msg="Server apievermos is shutting down..."
+time="21-04-2021 22:03:51" level=info msg="Server apievermos stopped"
+time="21-04-2021 22:04:00" level=info msg="Server apievermos is ready to handle requests at st :2021"
+time="21-04-2021 22:04:37" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/merchant/list
+time="21-04-2021 22:06:18" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/merchant/list
+time="21-04-2021 22:08:32" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/merchant/list
+time="21-04-2021 22:52:38" level=info msg="Server apievermos is shutting down..."
+time="21-04-2021 22:52:38" level=info msg="Server apievermos stopped"
+time="21-04-2021 22:53:10" level=info msg="Server apievermos is ready to handle requests at st :2021"
+time="21-04-2021 22:53:23" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/product/insert
+time="21-04-2021 22:56:30" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/product/insert
+time="21-04-2021 23:27:08" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/product/list
+time="21-04-2021 23:27:56" level=info msg="Server apievermos is shutting down..."
+time="21-04-2021 23:27:56" level=info msg="Server apievermos stopped"
+time="21-04-2021 23:28:08" level=info msg="Server apievermos is ready to handle requests at st :2021"
+time="21-04-2021 23:28:11" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/product/list
+time="21-04-2021 23:29:06" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/product/list
+time="21-04-2021 23:30:15" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/product/insert
+time="21-04-2021 23:30:29" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/product/list
+time="21-04-2021 23:32:08" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/product/list
+time="21-04-2021 23:35:42" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/product/list
+time="21-04-2021 23:36:47" level=info msg="Server apievermos is shutting down..."
+time="21-04-2021 23:36:47" level=info msg="Server apievermos stopped"
+time="21-04-2021 23:36:56" level=info msg="Server apievermos is ready to handle requests at st :2021"
+time="21-04-2021 23:37:02" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/product/list
