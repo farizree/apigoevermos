@@ -37,7 +37,7 @@ type (
 		ProductName  string             `json:"productname,omitempty" bson:"productname,omitempty"`
 		Price        string             `json:"price,omitempty" bson:"price,omitempty"`
 		Category     string             `json:"category,omitempty" bson:"category,omitempty"`
-		Stock        int32              `json:"stock,omitempty" bson:"stock,omitempty"`
+		Stock        *int               `json:"stock,omitempty" bson:"stock,omitempty"`
 		IsActive     int32              `json:"isactive,omitempty" bson:"isactive,omitempty"`
 		Dtmcrt       time.Time          `bson:"dtmcrt"`
 		Dtmupd       time.Time          `bson:"dtmupd"`

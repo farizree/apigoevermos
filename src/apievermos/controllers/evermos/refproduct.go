@@ -2,6 +2,7 @@ package evermos
 
 import (
 	"context"
+	"encoding/json"
 	"fmt"
 	"log"
 	"net/http"
@@ -86,12 +87,19 @@ func GetProduct(c *gin.Context) {
 		if err = ProductCursor.All(ctx, &products); err != nil {
 			panic(err)
 		}
-		//fmt.Println(products)
-		// c.JSON(products)
+
+		productOut, err := json.Marshal(products)
+		var data []map[string]interface{}
+		json.Unmarshal(productOut, &data)
+
+		finalData := data
+		dataStock := fmt.Sprintf("%v", finalData[0]["stock"])
 
 		defer ProductCursor.Close(ctx)
-		if products == nil {
+		if len(products) != 0 {
 			c.JSON(404, gin.H{"message": "products Not Found"})
+		} else if dataStock == "0" {
+			c.JSON(200, gin.H{"message": "Product has been passed", "data": products})
 		} else {
 			c.JSON(200, gin.H{"data": products})
 		}
