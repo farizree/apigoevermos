@@ -33,3 +33,5 @@ time="21-04-2021 23:36:47" level=info msg="Server apievermos is shutting down...
 time="21-04-2021 23:36:47" level=info msg="Server apievermos stopped"
 time="21-04-2021 23:36:56" level=info msg="Server apievermos is ready to handle requests at st :2021"
 time="21-04-2021 23:37:02" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/product/list
+time="22-04-2021 10:38:56" level=info msg="Server apievermos is shutting down..."
+time="22-04-2021 10:38:56" level=info msg="Server apievermos stopped"

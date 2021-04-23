@@ -1,7 +1,0 @@
-time="24-06-2020 11:26:45" level=info msg="Server apievermos is ready to handle requests at ast.bafsp.bussan.co.id :2020"
-time="24-06-2020 11:26:52" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/dataevermos/list
-time="24-06-2020 11:26:52" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/dataevermos/list
-time="24-06-2020 11:27:30" level=info msg="Server apievermos is shutting down..."
-time="24-06-2020 11:27:30" level=info msg="Server apievermos stopped"
-time="24-06-2020 11:28:02" level=info msg="Server apievermos is ready to handle requests at ast.bafsp.bussan.co.id :2020"
-time="24-06-2020 11:28:07" level=info msg="HTTP Request Method" method=POST request= url=/api/v1/apievermos/evermos/dataevermos/list
