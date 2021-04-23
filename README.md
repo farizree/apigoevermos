@@ -37,6 +37,7 @@ ENDPOINT
     "id" : "60804b2e62db59dfa3da9d5b"
 }
 
+insert product in param stock = 0 to check validation 
 
 How to run in MAC OS or Linux  : cd /src/apievermos/ 
                                 : go build main.go
