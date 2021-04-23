@@ -96,11 +96,6 @@ func main() {
 	{
 		//Modul evermos
 
-		// v1.POST("evermos/dataevermos/list", Cevermos.Getevermos)
-		// v1.POST("evermos/dataevermos/insert", Cevermos.Insertevermos)
-		v1.POST("evermos/dataevermos/delete", Cevermos.Deleteevermos)
-		v1.POST("evermos/dataevermos/update", Cevermos.Updateevermos)
-
 		v1.POST("evermos/merchant/list", Cevermos.GetMerchant)
 		v1.POST("evermos/merchant/insert", Cevermos.InsertMerchant)
 

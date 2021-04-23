@@ -87,21 +87,24 @@ func GetProduct(c *gin.Context) {
 		if err = ProductCursor.All(ctx, &products); err != nil {
 			panic(err)
 		}
+		defer ProductCursor.Close(ctx)
 
 		productOut, err := json.Marshal(products)
 		var data []map[string]interface{}
 		json.Unmarshal(productOut, &data)
 
 		finalData := data
-		dataStock := fmt.Sprintf("%v", finalData[0]["stock"])
-
-		defer ProductCursor.Close(ctx)
-		if len(products) != 0 {
-			c.JSON(404, gin.H{"message": "products Not Found"})
-		} else if dataStock == "0" {
-			c.JSON(200, gin.H{"message": "Product has been passed", "data": products})
+		fmt.Println(finalData)
+		if len(finalData) > 0 {
+			dataStock := fmt.Sprintf("%v", finalData[0]["stock"])
+			fmt.Println(dataStock)
+			if dataStock == "0" {
+				c.JSON(200, gin.H{"message": "Product has been passed", "data": products})
+			} else {
+				c.JSON(200, gin.H{"data": products})
+			}
 		} else {
-			c.JSON(200, gin.H{"data": products})
+			c.JSON(404, gin.H{"message": "products Not Found"})
 		}
 	}
 }
