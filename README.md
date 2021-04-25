@@ -46,6 +46,5 @@ How to run in MAC OS or Linux  : cd /src/apievermos/
 How to run  in Windows  : cd /src/apievermos/ 
                         : go build main.go
                         : main.exe
-
-# MongoDB
+Point 2 https://play.golang.org/p/33MwzKTQ8po
 
